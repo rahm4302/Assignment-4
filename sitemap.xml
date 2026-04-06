@@ -47,6 +47,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/home/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/back-to-school-essentials/backpacks/
         </loc>
     </url>
