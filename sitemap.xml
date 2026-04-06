@@ -17,6 +17,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/what-to-do-the-night-before-school-starts-a-short-checklist/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/
         </loc>
     </url>
