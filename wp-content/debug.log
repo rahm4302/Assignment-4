@@ -15,3 +15,10 @@
 [06-Apr-2026 03:34:17 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 32768 bytes) in /workspaces/Assignment-4/.wordpress/wp-includes/plugin.php on line 177
 [06-Apr-2026 03:34:22 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 8192 bytes) in /workspaces/Assignment-4/.wordpress/wp-admin/includes/post.php on line 1350
 [06-Apr-2026 03:34:22 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 20480 bytes) in /workspaces/Assignment-4/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-lexer.php on line 1532
+[06-Apr-2026 04:34:47 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 86016 bytes) in /workspaces/Assignment-4/.wordpress/wp-admin/includes/admin.php on line 55
+[06-Apr-2026 04:34:53 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 20480 bytes) in /workspaces/Assignment-4/.wordpress/wp-includes/class-wp-theme-json.php on line 1127
+[06-Apr-2026 04:34:53 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 20480 bytes) in /workspaces/Assignment-4/.wordpress/wp-includes/class-wp-fatal-error-handler.php on line 203
+[06-Apr-2026 04:34:57 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 86016 bytes) in /workspaces/Assignment-4/.wordpress/wp-admin/includes/admin.php on line 55
+[06-Apr-2026 04:35:07 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 86016 bytes) in /workspaces/Assignment-4/.wordpress/wp-admin/includes/admin.php on line 55
+[06-Apr-2026 04:35:08 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 12288 bytes) in /workspaces/Assignment-4/.wordpress/wp-admin/includes/post.php on line 86
+[06-Apr-2026 04:35:14 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 86016 bytes) in /workspaces/Assignment-4/.wordpress/wp-admin/includes/admin.php on line 55
