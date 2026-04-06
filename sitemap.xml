@@ -27,11 +27,6 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/back-to-school-essentials/
         </loc>
     </url>
@@ -47,7 +42,12 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/home/
+            http://localhost:8000/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/posts/
         </loc>
     </url>
     <url>

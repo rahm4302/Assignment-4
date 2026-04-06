@@ -12,6 +12,8 @@
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel="alternate" type="application/rss+xml" title="Back to School Essentials &raquo; Feed" href="/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Back to School Essentials &raquo; Comments Feed" href="/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8000%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8000%2F&#038;format=xml" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT1YX393JM"></script>
 <script>
 var tinyGtagJsOptions = {"ga4":"G-KT1YX393JM"};
@@ -48,6 +50,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 .wp-block-archives{box-sizing:border-box}.wp-block-archives-dropdown label{display:block}
 /*# sourceURL=/wp-includes/blocks/archives/style.min.css */
 </style>
+<style id='wp-block-button-inline-css'>
+.wp-block-button__link{align-content:center;box-sizing:border-box;cursor:pointer;display:inline-block;height:100%;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}
+/*# sourceURL=/wp-includes/blocks/button/style.min.css */
+</style>
 <style id='wp-block-categories-inline-css'>
 .wp-block-categories{box-sizing:border-box}.wp-block-categories.alignleft{margin-right:2em}.wp-block-categories.alignright{margin-left:2em}.wp-block-categories.wp-block-categories-dropdown.aligncenter{text-align:center}.wp-block-categories .wp-block-categories__label{display:block;width:100%}
 /*# sourceURL=/wp-includes/blocks/categories/style.min.css */
@@ -72,9 +78,9 @@ ol.wp-block-latest-comments{box-sizing:border-box;margin-left:0}:where(.wp-block
 .wp-block-latest-posts{box-sizing:border-box}.wp-block-latest-posts.alignleft{margin-right:2em}.wp-block-latest-posts.alignright{margin-left:2em}.wp-block-latest-posts.wp-block-latest-posts__list{list-style:none}.wp-block-latest-posts.wp-block-latest-posts__list li{clear:both;overflow-wrap:break-word}.wp-block-latest-posts.is-grid{display:flex;flex-wrap:wrap}.wp-block-latest-posts.is-grid li{margin:0 1.25em 1.25em 0;width:100%}@media (min-width:600px){.wp-block-latest-posts.columns-2 li{width:calc(50% - .625em)}.wp-block-latest-posts.columns-2 li:nth-child(2n){margin-right:0}.wp-block-latest-posts.columns-3 li{width:calc(33.33333% - .83333em)}.wp-block-latest-posts.columns-3 li:nth-child(3n){margin-right:0}.wp-block-latest-posts.columns-4 li{width:calc(25% - .9375em)}.wp-block-latest-posts.columns-4 li:nth-child(4n){margin-right:0}.wp-block-latest-posts.columns-5 li{width:calc(20% - 1em)}.wp-block-latest-posts.columns-5 li:nth-child(5n){margin-right:0}.wp-block-latest-posts.columns-6 li{width:calc(16.66667% - 1.04167em)}.wp-block-latest-posts.columns-6 li:nth-child(6n){margin-right:0}}:root :where(.wp-block-latest-posts.is-grid){padding:0}:root :where(.wp-block-latest-posts.wp-block-latest-posts__list){padding-left:0}.wp-block-latest-posts__post-author,.wp-block-latest-posts__post-date{display:block;font-size:.8125em}.wp-block-latest-posts__post-excerpt,.wp-block-latest-posts__post-full-content{margin-bottom:1em;margin-top:.5em}.wp-block-latest-posts__featured-image a{display:inline-block}.wp-block-latest-posts__featured-image img{height:auto;max-width:100%;width:auto}.wp-block-latest-posts__featured-image.alignleft{float:left;margin-right:1em}.wp-block-latest-posts__featured-image.alignright{float:right;margin-left:1em}.wp-block-latest-posts__featured-image.aligncenter{margin-bottom:1em;text-align:center}
 /*# sourceURL=/wp-includes/blocks/latest-posts/style.min.css */
 </style>
-<style id='wp-block-list-inline-css'>
-ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
-/*# sourceURL=/wp-includes/blocks/list/style.min.css */
+<style id='wp-block-buttons-inline-css'>
+.wp-block-buttons{box-sizing:border-box}.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons .wp-block-button__link{width:100%}.wp-block-button.aligncenter{text-align:center}
+/*# sourceURL=/wp-includes/blocks/buttons/style.min.css */
 </style>
 <style id='wp-block-search-inline-css'>
 .wp-block-search__button{margin-left:10px;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{height:1.25em;min-height:24px;min-width:24px;width:1.25em;fill:currentColor;vertical-align:text-bottom}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__button{box-sizing:border-box;display:flex;flex-shrink:0;justify-content:center;margin-left:0;max-width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100%;transition-duration:.3s}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper{overflow:hidden}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__input{border-left-width:0!important;border-right-width:0!important;flex-basis:0;flex-grow:0;margin:0;min-width:0!important;padding-left:0!important;padding-right:0!important;width:0!important}:where(.wp-block-search__input){appearance:none;border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin-left:0;margin-right:0;min-width:3rem;padding:8px;text-decoration:unset!important;text-transform:inherit}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){background-color:#fff;border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}.wp-block[data-align=right] .wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{float:right}
@@ -230,8 +236,8 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 /*# sourceURL=storefront-gutenberg-blocks-inline-css */
 </style>
 <link rel='stylesheet' id='dashicons-css' href='/wp-includes/css/dashicons.min.css?ver=6.9.4' media='all' />
-<link rel='stylesheet' id='al_product_styles-css' href='/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1775458171&#038;ver=6.9.4' media='all' />
-<link rel='stylesheet' id='ic_blocks-css' href='/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1775458171&#038;ver=6.9.4' media='all' />
+<link rel='stylesheet' id='al_product_styles-css' href='/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1775458580&#038;ver=6.9.4' media='all' />
+<link rel='stylesheet' id='ic_blocks-css' href='/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1775458580&#038;ver=6.9.4' media='all' />
 <style id='global-styles-inline-css'>
 :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: 23px;--wp--preset--font-size--large: 26px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--huge: 37px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 /*# sourceURL=global-styles-inline-css */
@@ -425,8 +431,10 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <link rel='stylesheet' id='storefront-fonts-css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C300%2C300italic%2C400italic%2C600%2C700%2C900&#038;subset=latin%2Clatin-ext&#038;ver=4.6.2' media='all' />
 <link rel='stylesheet' id='storefront-child-style-css' href='/wp-content/themes/storefront_child/style.css?ver=6.9.4' media='all' />
 <script src="/wp-content/themes/storefront_child/customElements.js?ver=6.9.4" id="custom_javascript-js"></script>
-<link rel="https://api.w.org/" href="/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/82" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.9.4" />
+<link rel="canonical" href="/" />
+<link rel='shortlink' href='/' />
 		<style id="wp-custom-css">
 			/* ===== 1. Google Fonts & Base Styles ===== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Patrick+Hand&display=swap');
@@ -741,9 +749,14 @@ a.button.wc-forward {
   outline: none;
   box-shadow: 0 0 0 2px rgba(244, 197, 66, 0.3);
 }		</style>
-		</head>
+		<style id='core-block-supports-inline-css'>
+.wp-container-core-buttons-is-layout-a89b3969{justify-content:center;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
 
-<body class="home blog wp-embed-responsive wp-theme-storefront wp-child-theme-storefront_child no-wc-breadcrumb storefront-align-wide right-sidebar">
+</head>
+
+<body class="home wp-singular page-template-default page page-id-82 wp-embed-responsive wp-theme-storefront wp-child-theme-storefront_child no-wc-breadcrumb storefront-align-wide right-sidebar">
 
 
 
@@ -754,20 +767,20 @@ a.button.wc-forward {
 		<div class="col-full">		<a class="skip-link screen-reader-text" href="#site-navigation">Skip to navigation</a>
 		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 				<div class="site-branding">
-			<h1 class="beta site-title"><a href="/" rel="home">Back to School Essentials</a></h1><p class="site-description">Prepare for the School Year!</p>		</div>
+			<div class="beta site-title"><a href="/" rel="home">Back to School Essentials</a></div><p class="site-description">Prepare for the School Year!</p>		</div>
 		</div><div class="storefront-primary-navigation"><div class="col-full">		<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Navigation">
 		<button id="site-navigation-menu-toggle" class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"><span>Menu</span></button>
 			<div class="menu"><ul>
-<li class="current_page_item"><a href="/">Home</a></li><li class="page_item page-item-14"><a href="/about-page/">About Page</a></li>
+<li class="current_page_item"><a href="/">Home</a></li><li class="page_item page-item-86"><a href="/posts/">Posts</a></li>
+<li class="page_item page-item-14"><a href="/about-page/">About</a></li>
 <li class="page_item page-item-10"><a href="/back-to-school-essentials/">Back to School Essentials</a></li>
 <li class="page_item page-item-20"><a href="/contact/">Contact</a></li>
-<li class="page_item page-item-82"><a href="/home/">Home</a></li>
 </ul></div>
 <div class="menu"><ul>
-<li class="current_page_item"><a href="/">Home</a></li><li class="page_item page-item-14"><a href="/about-page/">About Page</a></li>
+<li class="current_page_item"><a href="/">Home</a></li><li class="page_item page-item-86"><a href="/posts/">Posts</a></li>
+<li class="page_item page-item-14"><a href="/about-page/">About</a></li>
 <li class="page_item page-item-10"><a href="/back-to-school-essentials/">Back to School Essentials</a></li>
 <li class="page_item page-item-20"><a href="/contact/">Contact</a></li>
-<li class="page_item page-item-82"><a href="/home/">Home</a></li>
 </ul></div>
 		</nav><!-- #site-navigation -->
 		</div></div>
@@ -781,237 +794,37 @@ a.button.wc-forward {
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		
-<article id="post-41" class="post-41 post type-post status-publish format-standard hentry category-uncategorized">
-
+			
+<article id="post-82" class="post-82 page type-page status-publish hentry">
 			<header class="entry-header">
-		
-			<span class="posted-on">Posted on <a href="/the-smart-way-to-buy-school-supplies-without-wasting-money/" rel="bookmark"><time class="entry-date published" datetime="2026-04-06T00:10:39-04:00">6 April 2026</time><time class="updated" datetime="2026-04-06T00:22:25-04:00">6 April 2026</time></a></span> <span class="post-author">by <a href="/author/rahamam/" rel="author">rahamam</a></span> <h2 class="alpha entry-title"><a href="/the-smart-way-to-buy-school-supplies-without-wasting-money/" rel="bookmark">The Smart Way to Buy School Supplies Without Wasting Money</a></h2>		</header><!-- .entry-header -->
+			<h1 class="entry-title">Home</h1>		</header><!-- .entry-header -->
 				<div class="entry-content">
-		<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><a href="https://progressivegrocer.com/walmart-heads-back-school-thousands-products-under-10"><img fetchpriority="high" decoding="async" width="500" height="281" src="/undefined/wp-content/uploads/2026/04/image_2026-04-06_001031369.png" alt="" class="wp-image-42" style="width:786px;height:auto" srcset="/wp-content/uploads/2026/04/image_2026-04-06_001031369.png 500w, /wp-content/uploads/2026/04/image_2026-04-06_001031369-300x169.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure>
+			<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://www.vanityfair.com/news/2020/09/forget-zoom-kindergarten-put-kids-back-in-school?srsltid=AfmBOorpWGd6aJwMYiyqePmNwAf_Ybe33CDw4X7T1P-Y-ozRg8sex9e5"><img fetchpriority="high" decoding="async" width="1024" height="682" src="/undefined/wp-content/uploads/2026/04/image_2026-04-06_024649492-1024x682.png" alt="back to skoo" class="wp-image-83" srcset="/wp-content/uploads/2026/04/image_2026-04-06_024649492-1024x682.png 1024w, /wp-content/uploads/2026/04/image_2026-04-06_024649492-300x200.png 300w, /wp-content/uploads/2026/04/image_2026-04-06_024649492-768x512.png 768w, /wp-content/uploads/2026/04/image_2026-04-06_024649492-1536x1024.png 1536w, /wp-content/uploads/2026/04/image_2026-04-06_024649492-600x400.png 600w, /wp-content/uploads/2026/04/image_2026-04-06_024649492-240x160.png 240w, /wp-content/uploads/2026/04/image_2026-04-06_024649492.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 </div>
 
 
-<p>Retailers bank on parents panic‑buying everything in August. Don&#8217;t fall for it.</p>
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-a89b3969 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/posts/">View Posts</a></div>
 
 
 
-<p><strong>Step 1 – Wait for the actual teacher list.</strong><br>Don&#8217;t buy the generic &#8220;kindergarten supply pack&#8221; at Target. Your specific teacher might not want half of it.</p>
-
-
-
-<p><strong>Step 2 – Shop your house first.</strong><br>Scissors? Pens? A ruler? You probably already own these. Check the junk drawer.</p>
-
-
-
-<p><strong>Step 3 – Buy cheap on basics.</strong><br>Notebooks, folders, glue sticks – get the store brand. No one cares what brand your spiral notebook is.</p>
-
-
-
-<p><strong>Step 4 – Spend on the one thing you use daily.</strong><br>If you write all day, get good pens. If you type all day, get a decent laptop sleeve. One quality item beats ten mediocre ones.</p>
-
-
-
-<p><strong>Step 5 – Skip the &#8220;kits.&#8221;</strong><br>Pre‑packaged supply kits are convenient but marked up 30‑50%. Buy individual items.</p>
-
-
-
-<p>Total savings: easily $40‑60. Use that money for something that actually matters. Like lunch.</p>
-		</div><!-- .entry-content -->
-		
-		<aside class="entry-taxonomy">
-						<div class="cat-links">
-				Category: <a href="/category/uncategorized/" rel="category tag">Uncategorized</a>			</div>
-			
-					</aside>
-
-		
-</article><!-- #post-## -->
-
-<article id="post-38" class="post-38 post type-post status-publish format-standard hentry category-uncategorized">
-
-			<header class="entry-header">
-		
-			<span class="posted-on">Posted on <a href="/what-to-do-the-night-before-school-starts-a-short-checklist/" rel="bookmark"><time class="entry-date published" datetime="2026-04-06T00:08:13-04:00">6 April 2026</time><time class="updated" datetime="2026-04-06T00:42:49-04:00">6 April 2026</time></a></span> <span class="post-author">by <a href="/author/rahamam/" rel="author">rahamam</a></span> <h2 class="alpha entry-title"><a href="/what-to-do-the-night-before-school-starts-a-short-checklist/" rel="bookmark">What to Do the Night Before School Starts (A Short Checklist)</a></h2>		</header><!-- .entry-header -->
-				<div class="entry-content">
-		<div class="wp-block-image">
-<figure class="aligncenter size-large"><a href="https://nhcje.org/blog/school-districts-must-stop-scapegoating-deij-professionals"><img decoding="async" width="1024" height="682" src="/undefined/wp-content/uploads/2026/04/image_2026-04-06_000802621-1024x682.png" alt="" class="wp-image-39" srcset="/wp-content/uploads/2026/04/image_2026-04-06_000802621-1024x682.png 1024w, /wp-content/uploads/2026/04/image_2026-04-06_000802621-300x200.png 300w, /wp-content/uploads/2026/04/image_2026-04-06_000802621-768x511.png 768w, /wp-content/uploads/2026/04/image_2026-04-06_000802621-1536x1022.png 1536w, /wp-content/uploads/2026/04/image_2026-04-06_000802621-2048x1363.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/back-to-school-essentials/">View Products</a></div>
 </div>
 
 
-<p>Don&#8217;t be the kid running through the house at 7:45 AM looking for one shoe. Do this the night before.</p>
 
+<p>We sell backpacks, notebooks, pens, folders, and lunch bags that don&#8217;t fall apart three weeks into the school year. No glitter. No motivational quotes about &#8220;reaching for the stars.&#8221; Just gear that works. The Everyday Backpack has reinforced zippers and a padded laptop sleeve. The 12-pack retractable pens won&#8217;t bleed through cheap paper. The insulated lunch bag keeps yogurt cold so your kid doesn&#8217;t eat warm dairy at noon. That&#8217;s the whole business model.</p>
 
 
-<ul class="wp-block-list">
-<li><strong>Pack the bag</strong>&nbsp;– Everything you need is already inside. No morning scrambling.</li>
 
+<p>You don&#8217;t need a thirty-minute YouTube video to decide on a pencil case. You don&#8217;t need a color-coded TikTok organization system. You need a backpack that holds stuff and a notebook that doesn&#8217;t lose its spiral binding. Our entire inventory fits on one page. Pick what you want. Pay once. We ship within two days. Returns within 30 days if something breaks. No phone trees. No chatbots. Just an email address that goes to a real human who types back within 24 hours.</p>
 
 
-<li><strong>Pick clothes</strong>&nbsp;– Check the weather. Lay them out. Yes, including socks.</li>
 
-
-
-<li><strong>Charge devices</strong>&nbsp;– Laptop, tablet, phone. Find the charger now, not in the morning.</li>
-
-
-
-<li><strong>Sign anything</strong>&nbsp;– Permission slips, forms, emergency cards. Get them done.</li>
-
-
-
-<li><strong>Set two alarms</strong>&nbsp;– One to wake up. One five minutes later in case you hit snooze.</li>
-
-
-
-<li><strong>Go to bed</strong>&nbsp;– Seriously. Being tired on day one sets a bad tone.</li>
-</ul>
-
-
-
-<p>That&#8217;s it. Six things. Takes 15 minutes.</p>
-		</div><!-- .entry-content -->
-		
-		<aside class="entry-taxonomy">
-						<div class="cat-links">
-				Category: <a href="/category/uncategorized/" rel="category tag">Uncategorized</a>			</div>
-			
-					</aside>
-
-		
-</article><!-- #post-## -->
-
-<article id="post-35" class="post-35 post type-post status-publish format-standard hentry category-uncategorized">
-
-			<header class="entry-header">
-		
-			<span class="posted-on">Posted on <a href="/backpack-vs-tote-bag-vs-messenger-bag-pick-one/" rel="bookmark"><time class="entry-date published" datetime="2026-04-06T00:01:18-04:00">6 April 2026</time><time class="updated" datetime="2026-04-06T00:34:53-04:00">6 April 2026</time></a></span> <span class="post-author">by <a href="/author/rahamam/" rel="author">rahamam</a></span> <h2 class="alpha entry-title"><a href="/backpack-vs-tote-bag-vs-messenger-bag-pick-one/" rel="bookmark">Backpack vs. Tote Bag vs. Messenger Bag – Pick One</a></h2>		</header><!-- .entry-header -->
-				<div class="entry-content">
-		<div class="wp-block-image">
-<figure class="aligncenter size-large"><a href="https://wamu.org/story/15/11/02/from_book_strap_to_burrito_a_history_of_the_school_backpack/"><img decoding="async" width="1024" height="683" src="/undefined/wp-content/uploads/2026/04/image_2026-04-06_000058202-1024x683.png" alt="" class="wp-image-36" srcset="/wp-content/uploads/2026/04/image_2026-04-06_000058202-1024x683.png 1024w, /wp-content/uploads/2026/04/image_2026-04-06_000058202-300x200.png 300w, /wp-content/uploads/2026/04/image_2026-04-06_000058202-768x512.png 768w, /wp-content/uploads/2026/04/image_2026-04-06_000058202-1536x1024.png 1536w, /wp-content/uploads/2026/04/image_2026-04-06_000058202-2048x1365.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-</div>
-
-
-<p>Not every student needs a hiking backpack. Here&#8217;s how to choose.</p>
-
-
-
-<p><strong>Backpack</strong>&nbsp;– Best for heavy loads. Laptops, multiple textbooks, lunch, gym clothes. If you walk more than 10 minutes or take stairs, get a backpack.</p>
-
-
-
-<p><strong>Tote bag</strong>&nbsp;– Looks better. Holds less. One shoulder does all the work. Fine for college students with one laptop and a notebook. Bad for anyone under 15 carrying six pounds of homework.</p>
-
-
-
-<p><strong>Messenger bag</strong>&nbsp;– The middle ground. Easier to access than a backpack. Worse for your shoulder than a backpack. Good for bike commuters. Fine for light days.</p>
-
-
-
-<p><strong>Verdict:</strong>&nbsp;Most students should just buy a normal backpack. Save the fashion statement for weekends.</p>
-		</div><!-- .entry-content -->
-		
-		<aside class="entry-taxonomy">
-						<div class="cat-links">
-				Category: <a href="/category/uncategorized/" rel="category tag">Uncategorized</a>			</div>
-			
-					</aside>
-
-		
-</article><!-- #post-## -->
-
-<article id="post-32" class="post-32 post type-post status-publish format-standard hentry category-uncategorized">
-
-			<header class="entry-header">
-		
-			<span class="posted-on">Posted on <a href="/how-to-organize-a-backpack-without-becoming-a-weirdo/" rel="bookmark"><time class="entry-date published" datetime="2026-04-05T23:52:57-04:00">5 April 2026</time><time class="updated" datetime="2026-04-06T00:33:52-04:00">6 April 2026</time></a></span> <span class="post-author">by <a href="/author/rahamam/" rel="author">rahamam</a></span> <h2 class="alpha entry-title"><a href="/how-to-organize-a-backpack-without-becoming-a-weirdo/" rel="bookmark">How to Organize a Backpack Without Becoming a Weirdo</a></h2>		</header><!-- .entry-header -->
-				<div class="entry-content">
-		<div class="wp-block-image">
-<figure class="aligncenter size-large"><a href="https://momentsenriched.com/the-best-school-supplies-for-back-to-school/"><img loading="lazy" decoding="async" width="1024" height="768" src="/undefined/wp-content/uploads/2026/04/image_2026-04-05_235242751-1024x768.png" alt="" class="wp-image-33" srcset="/wp-content/uploads/2026/04/image_2026-04-05_235242751-1024x768.png 1024w, /wp-content/uploads/2026/04/image_2026-04-05_235242751-300x225.png 300w, /wp-content/uploads/2026/04/image_2026-04-05_235242751-768x576.png 768w, /wp-content/uploads/2026/04/image_2026-04-05_235242751-1536x1152.png 1536w, /wp-content/uploads/2026/04/image_2026-04-05_235242751.png 2000w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure>
-</div>
-
-
-<p>You don&#8217;t need 47 pouches, a labeling gun, or a color‑coded system that takes 20 minutes to maintain. You just need two rules.</p>
-
-
-
-<p>Rule 1 – Heavy stuff in the back.<br>Laptop, binders, textbooks against your spine. Lighter stuff (lunch, folders) in the front pocket. This saves your back and keeps things from getting crushed.</p>
-
-
-
-<p>Rule 2 – One junk pocket.<br>Every backpack has that one pocket where everything loose ends up. That&#8217;s fine. Keep it to one. Once a week, empty it onto a desk and throw away the trash.</p>
-
-
-
-<p>Bonus: Don&#8217;t store loose papers. Use a folder. You&#8217;re not an animal.</p>
-		</div><!-- .entry-content -->
-		
-		<aside class="entry-taxonomy">
-						<div class="cat-links">
-				Category: <a href="/category/uncategorized/" rel="category tag">Uncategorized</a>			</div>
-			
-					</aside>
-
-		
-</article><!-- #post-## -->
-
-<article id="post-25" class="post-25 post type-post status-publish format-standard hentry category-uncategorized">
-
-			<header class="entry-header">
-		
-			<span class="posted-on">Posted on <a href="/the-only-7-back-to-school-supplies-you-actually-need/" rel="bookmark"><time class="entry-date published" datetime="2026-04-05T23:34:17-04:00">5 April 2026</time><time class="updated" datetime="2026-04-06T00:32:06-04:00">6 April 2026</time></a></span> <span class="post-author">by <a href="/author/rahamam/" rel="author">rahamam</a></span> <h2 class="alpha entry-title"><a href="/the-only-7-back-to-school-supplies-you-actually-need/" rel="bookmark">The Only 7 Back‑to‑School Supplies You Actually Need</a></h2>		</header><!-- .entry-header -->
-				<div class="entry-content">
-		<div class="wp-block-image">
-<figure class="aligncenter size-full"><a href="https://www.livenowfox.com/news/1-3-parents-cant-afford-back-to-school-shopping-kids"><img loading="lazy" decoding="async" width="942" height="628" src="/undefined/wp-content/uploads/2026/04/image_2026-04-05_234820328.png" alt="" class="wp-image-30" style="aspect-ratio:1.8716600042078688" srcset="/wp-content/uploads/2026/04/image_2026-04-05_234820328.png 942w, /wp-content/uploads/2026/04/image_2026-04-05_234820328-300x200.png 300w, /wp-content/uploads/2026/04/image_2026-04-05_234820328-768x512.png 768w" sizes="auto, (max-width: 942px) 100vw, 942px" /></a></figure>
-</div>
-
-
-<p>Most school supply lists are padded with junk. You don&#8217;t need 12 glue sticks or a specific brand of colored pencils. Here&#8217;s what actually gets used.</p>
-
-
-
-<ol start="1" class="wp-block-list">
-<li><strong>Notebooks</strong>&nbsp;– 1 per subject. Spiral or composition, doesn&#8217;t matter.</li>
-
-
-
-<li><strong>Pens</strong>&nbsp;– Black or blue. Get a 10‑pack. Half will disappear by October.</li>
-
-
-
-<li><strong>Pencils</strong>&nbsp;– Mechanical saves sharpening time. Wood works fine.</li>
-
-
-
-<li><strong>A decent backpack</strong>&nbsp;– Zippers that don&#8217;t break. That&#8217;s the only spec.</li>
-
-
-
-<li><strong>Folders</strong>&nbsp;– 5 with pockets. Color‑code by class if you&#8217;re organized.</li>
-
-
-
-<li><strong>Calculator</strong>&nbsp;– Basic for elementary. Scientific for middle/high school.</li>
-
-
-
-<li><strong>Earbuds</strong>&nbsp;– Cheap ones. The nice pair stays at home.</li>
-</ol>
-
-
-
-<p>Skip the rest. You&#8217;ll thank yourself when move‑in day isn&#8217;t a circus.</p>
-		</div><!-- .entry-content -->
-		
-		<aside class="entry-taxonomy">
-						<div class="cat-links">
-				Category: <a href="/category/uncategorized/" rel="category tag">Uncategorized</a>			</div>
-			
-					</aside>
-
-		
-</article><!-- #post-## -->
+<p>So stop overthinking it. Buy the backpack. Buy some pens. Throw in a folder so your kid doesn&#8217;t become one of those animals with loose papers floating around. School starts whether you&#8217;re ready or not. Might as well have supplies that aren&#8217;t garbage. Shop now or don&#8217;t. We&#8217;ll be here either way.</p>
+					</div><!-- .entry-content -->
+		</article><!-- #post-## -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
