@@ -12,6 +12,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/backpack-vs-tote-bag-vs-messenger-bag-pick-one/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/
         </loc>
     </url>
