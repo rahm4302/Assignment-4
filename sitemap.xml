@@ -2,7 +2,7 @@
 <urlset>
     <url>
         <loc>
-            http://localhost:8000/hello-world/
+            http://localhost:8000/the-only-7-back-to-school-supplies-you-actually-need/
         </loc>
     </url>
     <url>
@@ -12,7 +12,17 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/sample-page/
+            http://localhost:8000/back-to-school-essentials/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/about-page/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/contact/
         </loc>
     </url>
     <url>
