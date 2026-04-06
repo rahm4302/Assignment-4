@@ -57,6 +57,16 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/back-to-school-essentials/12-pack-retractable-pens/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/back-to-school-essentials/40-pocket-accordion-folder/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
