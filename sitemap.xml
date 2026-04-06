@@ -67,6 +67,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/back-to-school-essentials/insulated-lunch-bag/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
