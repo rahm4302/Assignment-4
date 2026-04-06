@@ -22,6 +22,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/the-smart-way-to-buy-school-supplies-without-wasting-money/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/
         </loc>
     </url>
